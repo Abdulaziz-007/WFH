@@ -1,0 +1,381 @@
+.container{
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 0;
+}
+.top-wrapper{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    padding: 8px 5px;
+    box-sizing: border-box;
+    margin-bottom: 97px;
+}
+.logo{
+    width: 58px;
+    height: 20px;
+    margin-right: auto;
+}
+.spisok-ul{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.spisok-li{
+    margin-right: 32px;
+}
+.silka{
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #000000;
+}
+.contact{
+    margin-right: 24px;
+}
+.phone-number{
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+    padding: 8px 16px;
+    background: #00BAFC;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #FFFFFF;
+    border: none;
+}
+.top-bottom-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 56px;
+}
+.buiznes{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 130%;
+    color: #000000;
+    width: 470px;
+    margin-bottom: 16px;
+}
+.turpis{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    width: 465px;    
+}
+.deliv{
+    text-decoration: none;
+    display: inline-block;
+}
+.youtube-wrapper{
+    background-image: url(images/youtube.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 258px;
+    width: 458px ;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.youtube{
+    display: inline-block;
+    color: #00000000;
+    width: 150px;
+    height: 106px;
+    background-image: url(images/youtube-play-button.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    border: none;
+    border-radius: 10px;
+}
+.uslugi{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 130%;
+    text-align: center;
+    color: #000000;
+}
+.nullum{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    width: 719px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+.website-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 48px;
+}
+.web{
+    width: 320px;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+    box-sizing: border-box;
+}
+.website{
+    width: 203px;
+    height: 130px;
+    margin-bottom: 16px;
+}
+.bot{
+    width: 222px;
+}
+.smm{
+    width: 177px;
+}
+.design{
+    width: 179px;
+}
+.crm{
+    width: 170px;
+}
+.create{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 16px;
+}
+.lorem{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+.website-wrapper-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 48px;   
+}
+.delivery{
+    display: flex;
+    align-items: center;
+    width: 375px;
+    margin: 40px  auto 112px;
+    
+}
+.go{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #00BAFC;
+    margin-left: 16px;
+}
+.weus{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 130%;
+    text-align: center;
+    color: #000000;
+}
+.step-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 105px;
+}
+.step{
+    width: 300px;
+    height: 278px;
+}
+.students{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    color: #000000;
+}
+.laoret{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    width: 493px;
+}
+.by{
+    height: 171px;
+}
+.chel{
+    height: 232px;
+    margin-bottom: 48px;
+}
+.girl{
+    height: 225px;
+}
+.boy{
+    height: 260px;
+}
+.color{
+    background: #00BAFC;
+    margin: 0 auto;
+    padding: 0;
+    width: 1110px;
+    height: 543px;
+    padding-top: 56px;
+}
+.give{
+    width: 167px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 111px;
+}
+.given{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 130%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.nec{
+    color: #FFFFFF;
+    line-height: 150%;
+}
+.final{
+    background: #191919;
+    margin: 0 auto;
+    padding: 0;
+    width: 1110px;
+    padding: 56px 10px;
+    padding-right: 250px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+}
+.copy{
+    margin: 0;
+    margin-bottom: 16px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    color: #FFFFFF;
+    justify-content: baseline;
+}
+.ec{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    width: 320px;
+}
+.final-end{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.spisok-ul1{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.spisok-li1{
+    margin-bottom: 8px;
+}
+.silka1{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.internet{
+    width: 22px;
+    height: 24px;
+    margin-right: 8px;
+}
+.internet-wrapper{
+    display: flex;
+    align-items: center;
+    margin:0;
+}
+.colo__section-wrapper{
+    padding: 24px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    width: 348px;
+    height: 304px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+}
+label{
+    padding: 16px;
+    background: #F3F3F3;
+    border-radius: 5px;
+    margin-bottom: 16px;
+}
+input{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: black;
+    border: none;
+    background: #F3F3F3;
+    box-sizing: border-box;
+}
+.text-help{
+    padding: 13px 8px;
+}
